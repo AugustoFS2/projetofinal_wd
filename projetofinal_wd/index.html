@@ -15,8 +15,6 @@
 </head>
 
 <body>
-
-    <img class="overlay" src="img/logtext.jpg">
     <nav class="navbar navbar-expand-lg bg-body-tertiary menu">
         <div class="container-fluid divMenu">
             <div id="logo_ifpoa">
@@ -24,60 +22,80 @@
             </div>
             <div class="navbar-nav navegas" id="opcoes_nav">
                 <a class="nav-link active" aria-current="page" id="inicial" href="index.html">Página Inicial</a>
-                <a class="nav-link" id="portais" href="sobresigaa.html">Portais do discente</a>
+                <a class="nav-link" id="portais" href="portais.html">Portais Acadêmicos</a>
                 <a class="nav-link" id="faq" href="perguntas.html">Perguntas Frequentes</a>
             </div>
         </div>
     </nav>
 
-    <div class="container" id="containers">
-        <div class="row" id="explicacao">
-            <h2 class="titulo_explicacao">
-                Guia do Aluno
-            </h2>
-            <p class="content-justify" id="texto_explicacao">
-                O guia do aluno tem a finalidade de informar e orientar os alunos<br>
-                sobre o funcionamento dos sistemas e serviços do Campus POA<br>
-                para facilitar a experiência principalmente de novos integrantes
-            </p>
-        </div>
+    <div id="containers" class="container">
+        <div class="overlay">
+            <div class="background">
+                <div class="row" id="explicacao">
+                    <h2 style="color: #1c5525;" class="titulo_explicacao">
+                        Guia do Aluno
+                    </h2>
+                    <p class="content-justify" id="texto_explicacao">
+                        O guia do aluno tem a finalidade de informar e orientar os alunos<br>
+                        sobre o funcionamento dos sistemas e serviços do Instituto Federal<br>
+                        de Educação, Ciência e Tecnologia Campus Porto Alegre para facilitar<br>
+                        a experiência principalmente de novos ingressantes
+                    </p>
+                </div>
 
-        <div class="row" id="primeiroacesso">
-            <h2 class="titulo_primeiroacesso">
-                Primeiro Acesso
-            </h2>
-            <p class="content-justify">
-                Todo aluno do Campus POA possui um cadastro no sistema da<br>
-                instituição que dá acesso a diversas áreas e serviços do Campus.<br>
-                Você pode acessá-los utilizando seu usuário e senha:<br><br>
+                <div class="row" id="pos_explicacao">
+                    <div class="col" id="esquerda_col">
+                        <h2 style="color: #1c5525;" class="titulo_primeiroacesso">
+                            Primeiro Acesso
+                        </h2>
+                        <p class="content-justify">
+                            Todo aluno do Campus POA possui um cadastro no sistema da<br>
+                            instituição que dá acesso a diversas áreas e serviços do Campus<br>
+                            Você pode acessá-los utilizando seu usuário e senha:<br><br>
 
-                <b>Usuário: número da sua matrícula (apenas números)</b><br>
-                Este número pode ser encontrado no e-mail de ingresso,<br>
-                no comprovante de matrícula e no crachá de identificação
-                <br><br>
+                            <b>Usuário: número da sua matrícula ou CPF (apenas números)</b><br>
+                            Este número pode ser encontrado no e-mail de ingresso,<br>
+                            no comprovante de matrícula e no crachá de identificação
+                            <br><br>
 
-                <b>Senha: número do seu RG</b><br>
-                A sua senha para acesso é o número do seu RG. Porém, no seu<br>
-                primeiro acesso a um dos nossos computadores do IFRS POA<br>
-                será solicitado que você escolha uma nova senha de usuario.<br>
-                Para isto, você deve criar uma senha de no mínimo 8 caracteres,<br>
-                que contenha pelo menos 3 letras minúsculas e 3 números.<br>
-                Essa será sua nova senha de agora em diante.
-            </p>
-        </div>
+                            <b>Senha: número do seu RG</b><br>
+                            A sua senha para acesso é o número do seu RG. Porém, no seu<br>
+                            primeiro acesso a um dos nosFsos computadores do IFRS POA<br>
+                            será solicitado que você escolha uma nova senha de usuário.<br>
+                            Para isto, você deve criar uma senha de no mínimo 8 caracteres,<br>
+                            que contenha pelo menos 3 letras minúsculas e 3 números. Essa
+                            será sua nova senha de agora em diante
+                        </p>
+                    </div>
 
-        <div class="row" id="faleconosco">
-            <h2 class="titulo_faleconosco">
-                Fale Conosco
-            </h2>
-            <p class="content-justify">
-                Esqueceu a senha? Problemas em acessar algum dos sistemas?<br>
-                Entre em contato com a DTI do IF via telefone ou via e-mail:<br>
-            <ul class="navbar-nav">
-                <li class="nav-item">(51) 3930 6020</li>
-                <li class="nav-item">dti@poa.ifrs.edu.br</li>
-            </ul>
-            </p>
+                    <div id="direita_col" class="col">
+                        <div class="col" id="perguntas">
+                            <h2 style="color: #1c5525;" class="titulo_perguntas">
+                                Perguntas frequentes
+                            </h2>
+                            <p class="content-justify">
+                                <a id="faqs" href="perguntas.html">Como consulto minha frequência?</a><br>
+                                <a id="faqs" href="perguntas.html">Como consulto minhas notas?</a><br>
+                                <a id="faqs" href="perguntas.html">Como acesso o conteúdo das matérias do semestre no
+                                    MOODLE?</a>
+                            </p>
+                        </div>
+                        <div class="col" id="faleconosco">
+                            <h2 style="color: #1c5525;" class="titulo_faleconosco">
+                                Fale Conosco
+                            </h2>
+                            <p class="content-justify">
+                                Esqueceu a senha? Problemas em acessar algum dos sistemas?<br>
+                                Entre em contato com a DTI do IF via telefone ou via e-mail:<br>
+                            <ul class="navbar-nav">
+                                <li style="list-style-type: none" class="nav-item">(51) 3930 6020</li>
+                                <li class="nav-item">dti@poa.ifrs.edu.br</li>
+                            </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 

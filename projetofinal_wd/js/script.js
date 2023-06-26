@@ -1,0 +1,8 @@
+gsap.timeline()
+    .to('.overlay', 1.4, { top: "-100%", ease: Expo.easeInOut })
+    .from('#logo_ifpoa', .3, { opacity: 0, x: -50, ease: Expo.easeInOut })
+    .from('.navegas', .3, { opacity: 0, x: 100, ease: Expo.easeInOut })
+    .from('.iti', .4, { opacity: 0, x: -50, ease: Expo.easeInOut })
+    .from('#explicacao', .4, { opacity: 0, x: -25, ease: Expo.easeInOut })
+    .from('#primeiroacesso', .4, { opacity: 0, x: -25, ease: Expo.easeInOut })
+    .from('#faleconosco', .4, { opacity: 0, x: -25, ease: Expo.easeInOut })

@@ -1,0 +1,17 @@
+html {
+    box-sizing: border-box;
+    background: url(img/ifrspoa.jpg);
+}
+
+.overlay {
+    align-items: center;
+    background: linear-gradient(90deg, #afdfa6 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    top: 0%;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}

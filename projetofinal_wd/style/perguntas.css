@@ -18,15 +18,11 @@ html {
     width: 70%;
 }
 
-#pos_explicacao {
-    padding-top: 2%;
-}
-
 #containers {
     position: relative;
     display: flex;
-    padding-left: 5%;
-    padding-top: 3%;
+    padding-left: 7%;
+    padding-top: 2.5%;
     background-color: #fad9e180;
 
     &::before {
@@ -45,4 +41,8 @@ html {
         filter: blur(3px);
         opacity: 0.16;
     }
+}
+
+#topo_row, #meio_row, #baixo_row{
+    padding-bottom: 2.2%;
 }

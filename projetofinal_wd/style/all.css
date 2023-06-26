@@ -2,12 +2,26 @@ html {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-a {
+#faqs:link, #faqs:visited, #faqs:active {
+    color: #7E0202;
+    font-weight: 700;
     text-decoration: none;
 }
 
+nav {
+    border-bottom: solid white;
+    padding: 0 !important;
+}
+
+#inicial:hover,
+#portais:hover,
+#faq:hover {
+    background-color: #afdfa6;
+    border-radius: 2.5%;
+    transition: 0.3s;
+}
+
 .container {
-    border: 0px;
     margin: 0px;
     padding: 0px 0px 0px 0px;
     width: 100%;
